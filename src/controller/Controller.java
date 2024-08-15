@@ -193,7 +193,7 @@ public class Controller {
      */
     private static boolean deletePessoa(String nome) throws IOException {
         File oldFile = new File(getFilepath());
-        File newFile = new File("../temp.txt");
+        File newFile = new File("./temp.txt");
         BufferedReader br = new BufferedReader(new FileReader(oldFile));
         PrintWriter pw = new PrintWriter(new FileWriter(newFile, true));
         boolean deletado = false;
