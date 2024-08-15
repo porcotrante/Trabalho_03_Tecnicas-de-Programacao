@@ -1,5 +1,9 @@
 package model;
-
+/**
+ * Essa é a classe que modela os objetos pessoas, com um nome, idade e telefone
+ * 
+ * @author Pedro Wagner, Pedro Militão, Théo Araujo
+ */
 public class Pessoa {
 	private String nome;
 	private String idade; 
