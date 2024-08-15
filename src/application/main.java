@@ -2,6 +2,10 @@ package application;
 
 import controller.Controller;
 
+/**
+ * na classe main, o controller é instanciado e assim as operações são executadas, caso haja erro, seu traço é printado
+ * @author Pedro Wagner, Théo Araujo
+ */
 
 public class main {
 
